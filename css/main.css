@@ -1,8 +1,10 @@
 html {
   box-sizing: border-box;
   font-family: Georgia, serif;
-  background-color: #cabdb2;
-  max-width: 23em;
+  background-color: #f0eee8;
+  max-width: 22em;
+  font-size: 0.875rem;
+  line-height: 1.6;
 }
 
 *, *::before, *::after {
@@ -20,14 +22,63 @@ p {
   font-size: 1rem;
 }
 
-.link-card li {
+.link {
+  background-color: #dcd4cd;
+  margin: 0;
+  padding: 0;
+}
+
+.link li {
   padding: 0.1em 1em 0.2em;
   display: inline-block;
   border: 3px solid #9a816d;
   border-radius: 8px;
 }
 
-.link {
+.link-card {
   color: #512200;
   text-decoration: none;
+}
+
+h2 {
+  font-size: 1.125rem;
+  display: inline-block;
+  font-weight: 900;
+  font-family: "Dosis", sans-serif;
+  background-color: #785439;
+  border: 2px solid #785439;
+  border-radius: 8px;
+  color: #f0eee8;
+  text-align: center;
+  padding: 0.5em 0.5em 0.5em;
+}
+
+.link-card dl {
+  border: 2px solid #9a816d;
+  padding: 0.9em 0.5em 0.9em;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link:hover {
+  background-color: #cabdb2;
+}
+
+.btn:hover {
+  background-color: #512200;
+  border-color: #512200;
+}
+
+dt {
+  display: inline-block;
+  width: 6em;
+}
+
+dd {
+  display: inline-block;
+  margin: 0;
+  min-width: 9em;
+  font-style: italic;
 }
