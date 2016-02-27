@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  background-color: #cabdb2;
+  max-width: 23em;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.link-card li {
+  padding: 0.1em 1em 0.2em;
+  display: inline-block;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+}
+
+.link {
+  color: #512200;
+  text-decoration: none;
+}
